@@ -1,0 +1,273 @@
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 350px;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+}
+header .nav {
+  display: flex;
+  padding: 30px 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #fff;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+header span {
+  font-size: 28px;
+}
+
+header .nav-bottom {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20%;
+}
+header .nav-bottom  img {
+  width: 238px;
+  height: 263px;
+}
+header .nav-bottom span {
+  font-size: 85px;
+  color: rgb(254, 128, 93);
+}
+header .nav-bottom p {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.icons {
+  z-index: 1;
+  position: fixed;
+  top: 250px;
+  left: 30px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+#NewReals .container {
+  margin: 200px auto;
+  max-width: 65%;
+  padding: 20px;
+  background: rgba(23, 22, 28, 0.58);
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10%;
+}
+#NewReals .left {
+  max-width: 300px;
+}
+#NewReals .left img {
+  margin: 10px -55px;
+}
+
+#NewReals .right img {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0 0;
+}
+#NewReals h2 {
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
+}
+#NewReals p {
+  margin: 30px 0;
+  font-size: 17px;
+  line-height: 29px;
+}
+#NewReals span {
+  font-size: 23px;
+}
+#NewReals .left ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 50px 0;
+  padding: 0;
+}
+#NewReals .left li {
+  border: 1px solid #fe805d;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin: 0;
+}
+#NewReals .left a {
+  color: #fff;
+}
+#NewReals  ul :hover {
+  color: rgba(23, 22, 28, 0.58);
+  background-color: #fe805d;
+}
+
+#Praise {
+  background: rgb(31, 34, 47);
+  position: relative;
+}
+#Praise img {
+  position: absolute;
+  right: 10%;
+  top: 0;
+}
+#Praise .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0 0;
+}
+#Praise h2 {
+  font-size: 45px;
+}
+#Praise .rows {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}
+#Praise .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  max-width: 300px;
+  padding: 50px 0;
+}
+#Praise .box img {
+  position: relative;
+  width: 35px;
+  right: 0;
+  top: 0;
+}
+#Praise p {
+  font-size: 17px;
+}
+#Praise span {
+  font-size: 18px;
+  color: rgb(254, 128, 93);
+  border-bottom: 1px solid #fff;
+  padding: 50px;
+}
+
+#Appearances {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 100px 0;
+}
+
+#Appearances .container {
+  text-align: center;
+  width: 890px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#Appearances h2 {
+  font-size: 45px;
+  margin: 0 0 20px;
+  color: #fe805d;
+}
+#Appearances p {
+  max-width: 300px;
+  font-size: 17px;
+  margin: 0 auto;
+}
+#Appearances .content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border: 1px solid #fff;
+}
+#Appearances .join {
+  border: 1px solid #fe805d;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: max-content;
+  padding: 8px 50px;
+  color: #fe805d;
+}
+#Appearances .join:hover {
+  color: rgba(0, 0, 0, 0.9);
+  background: #fe805d;
+}
+#Appearances h3 {
+  font-size: 23px;
+  font-weight: normal;
+  padding: 0 120px;
+}
+
+#About {
+  padding: 50px 0 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#About .container {
+  background: rgb(31, 34, 47);
+  height: 100%;
+  padding: 50px 0 150px;
+  margin: 0 auto;
+}
+#About img {
+  position: absolute;
+  right: 10%;
+  top: 0;
+}
+#About .top img {
+  left: 44%;
+  top: -70px;
+  border-radius: 50%;
+}
+#About h2 {
+    padding: 0;
+    margin: 0;
+}
+
+#About .content {
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+#About .read {
+  border: 1px solid #fe805d;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: max-content;
+  padding: 8px 50px;
+  color: #fe805d;
+}
+#About .read :hover {
+  color: rgba(0, 0, 0, 0.9);
+  background: #fe805d;
+}
+
+footer {
+  margin: 0;
+  padding: 1px 0;
+  background: #fe805d;
+}
+footer p {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+footer a {
+  text-decoration: underline;
+  color: black;
+}
